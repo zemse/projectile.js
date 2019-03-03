@@ -1,6 +1,6 @@
 # projectile.js
 
-Kinematics motions in HTML elements.
+Kinematics motion with HTML elements.
 
 ## How to
 
@@ -31,3 +31,6 @@ console.log(ball.getXY()); //prints an Object e.g. {x: 100, y: 100}
 ball.throw(100,-100); //x is towards right and y is towards bottom thats why -100.
 ball.throw(100,-200,0); //specificy g value in third argument, default value is 100.
 ```
+
+## Demo
+In the demo, please open console and you can use ball.setXY, ball.getXY and ball.throwXY methods. You can find the demo [here](https://zemse.github.io/projectile.js/).
