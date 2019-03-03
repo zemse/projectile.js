@@ -35,7 +35,7 @@ class Projectile {
       y : this.setY(y)
     };
   }
-  throwXY(vx,vy,a = g) {
+  throwXY(vx,vy,a = 100) {
     let t = 0;
     const xinit = this.getX();
     const yinit = this.getY();

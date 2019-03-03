@@ -1,7 +1,5 @@
 //const Stuff = require('projectile.js');
 
-let g = 100;
-
 const ball = new Projectile(document.getElementById('element'),100,100);
 
 document.getElementById('increase-size').addEventListener('click', () => {
