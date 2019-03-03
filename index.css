@@ -3,10 +3,12 @@ body {
 }
 p {
   font-family: 'Montserrat', sans-serif;
-  color:white;
-  opacity: 0.6;
+  color:#fff9;
 }
-span {
+span, a {
+  color:#fffd;
+}
+.click, a {
   text-decoration: underline;
 }
 #element {
@@ -22,6 +24,6 @@ span {
 }
 
 .comment {
-  opacity: 0.7;
+  color:#fff8;
   text-decoration: none;
 }
