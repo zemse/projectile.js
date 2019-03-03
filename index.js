@@ -2,7 +2,7 @@
 
 let g = 100;
 
-const ball = new Stuff(document.getElementById('element'),100,100);
+const ball = new Projectile(document.getElementById('element'),100,100);
 
 document.getElementById('increase-size').addEventListener('click', () => {
   ball.e.style.width = ball.e.clientWidth * 1.2 + 'px';

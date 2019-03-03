@@ -1,4 +1,4 @@
-class Stuff {
+class Projectile {
   constructor(element, x = 0, y = 0) {
     this.e = element;
     this.position = {
